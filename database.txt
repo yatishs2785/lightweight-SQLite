@@ -1,0 +1,11 @@
+Students 3 2
+Name 3
+Age 1
+Department 3
+Alice    21    CS
+Bob      22    Math
+
+Courses 2 1
+CourseName 3
+Credits 1
+Databases    4
