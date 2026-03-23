@@ -1,0 +1,72 @@
+-- Create tables
+create table Students
+create table Courses
+create table Teachers
+
+-- Insert rows into Students
+insert into Students values (Alice, 21, CS)
+insert into Students values (Bob, 22, Math)
+insert into Students values (Charlie, 23, Physics)
+insert into Students values (Diana, 20, Biology)
+insert into Students values (Ethan, 24, Chemistry)
+
+-- Insert rows into Courses
+insert into Courses values (Databases, 4)
+insert into Courses values (Algorithms, 3)
+insert into Courses values (OperatingSystems, 4)
+insert into Courses values (Networks, 3)
+insert into Courses values (AI, 5)
+
+-- Insert rows into Teachers
+insert into Teachers values (ProfSmith, CS)
+insert into Teachers values (ProfJones, Math)
+insert into Teachers values (ProfBrown, Physics)
+insert into Teachers values (ProfTaylor, Biology)
+insert into Teachers values (ProfWhite, Chemistry)
+
+-- Display tables
+display
+select * from Students
+select * from Courses
+select * from Teachers
+
+-- Delete rows (simplified: deletes first row)
+delete from Students where name=Alice
+delete from Courses where CourseName=Databases
+delete from Teachers where name=ProfSmith
+
+-- More inserts into Students
+insert into Students values (Frank, 25, CS)
+insert into Students values (Grace, 22, Math)
+insert into Students values (Henry, 23, Physics)
+insert into Students values (Isabel, 21, Biology)
+insert into Students values (Jack, 24, Chemistry)
+
+-- More inserts into Courses
+insert into Courses values (MachineLearning, 5)
+insert into Courses values (DataScience, 4)
+insert into Courses values (CyberSecurity, 3)
+insert into Courses values (CloudComputing, 4)
+insert into Courses values (EmbeddedSystems, 3)
+
+-- More inserts into Teachers
+insert into Teachers values (ProfGreen, CS)
+insert into Teachers values (ProfBlack, Math)
+insert into Teachers values (ProfGray, Physics)
+insert into Teachers values (ProfOrange, Biology)
+insert into Teachers values (ProfPurple, Chemistry)
+
+-- Display again
+display
+select * from Students
+select * from Courses
+select * from Teachers
+
+-- Drop tables
+drop table Students
+drop table Courses
+drop table Teachers
+
+-- Save and quit
+save
+quit
